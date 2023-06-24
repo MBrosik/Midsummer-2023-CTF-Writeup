@@ -42,7 +42,7 @@ Answer: `/apps/oauth2/api/v1/token`
 
 I made regex and I used in search bar in vs code:
 
-<img src="./task_8.png" width="700"/>
+<img src="./task_8.png" width="600"/>
 
 <br>
 <br>
@@ -77,14 +77,15 @@ I tried it in Postman, but I got response:
 
 So I started to search something about that endpoint.
 
-<img src="./task_8_a.png" width="700"/>
+<img src="./task_8_a.png" width="800"/>
 
 We can get information in `apps/oauth2/lib/Controller/SettingsController.php` that no admin is required to send that request. So cookie `nc_username=admin` is red herring. 
-<img src="./task_8_b.png" width="700"/>
+
+<img src="./task_8_b.png" width="1000"/>
 
 So lets be logged in any other account. For example Puck and create app password and copy request token and cookie.
 
-<img src="./task_8_c.png" width="700"/>
+<img src="./task_8_c.png" width="800"/>
 
 We got response:
 ``` json
