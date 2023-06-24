@@ -1,4 +1,4 @@
-# The Midsummer Corp Hack
+# The Midsummer Corp Hack 2023 CTF Writeup
 
 ## Table of Contents  
 - [Midsummer Corp](./tasks/2/README.md)  
