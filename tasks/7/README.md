@@ -1,9 +1,10 @@
-
-# Task 7
+# Task 7 Twardowski
 
 ## 1. What is the name of the XML entity that contains information about user such as their name, email, roles, etc.?
 
 Answer: `assertion`
+
+<br>
 
 Answer for that information we can find in task description:
 
@@ -15,6 +16,8 @@ Answer for that information we can find in task description:
 ## 2. What is the name of a party that authenticates users and issues SAML assertions?
 
 Answer: `Identity Provider`
+
+<br>
 
 Also that information is in task description:
 
@@ -35,7 +38,7 @@ Answer: `15/06/2023`
 
 Answer: `application/x-www-form-urlencoded`
 
-I searched for that information in google and I found that information in that [post](https://stackoverflow.com/questions/54880602/how-to-deal-with-saml-responses-without-a-content-type-header)
+I searched for that information in google and I found that information in that [post](https://stackoverflow.com/questions/54880602/how-to-deal-with-saml-responses-without-a-content-type-header).
 
 <br>
 <br>
@@ -43,6 +46,8 @@ I searched for that information in google and I found that information in that [
 ## 5. What should be Destination set to in SAML Response?
 
 Answer: `files.midsummer.corp.local/apps/user_saml/saml/acs`
+
+<br>
 
 That information was in mail from Twardowski to Boruta:
 `You can send POST request to the Service Provider (SP) to "/apps/user_saml/saml/acs"`
@@ -59,8 +64,13 @@ The first part of url we can find in the main site `10.10.116.151` in the `<a>` 
 ## 6. What should be Issuer set to in SAML Response?
 Answer: `http://idp.midsummer.corp`
 
+<br>
+
 In the mail from Twardowski to Boruta we can find sentence:
-`For some reason http://idp.midsummer.corp stopped working lately and I could not bring it back online.`
+
+```
+For some reason http://idp.midsummer.corp stopped working lately and I could not bring it back online.
+```
 
 <br>
 <br>
@@ -69,6 +79,7 @@ In the mail from Twardowski to Boruta we can find sentence:
 
 Answer: `Midsummer_Corp{Look_f0r_th3_fern_w1th_silv3r_l3av3s}`
 
+<br>
 
 We must create saml response. I got from the Internet example of a saml response.
 
@@ -153,15 +164,15 @@ I made some changes:
   <saml:Audience>http://10.10.200.65/apps/user_saml/saml/metadata</saml:Audience>
 </saml:AudienceRestriction>
 ```
-Without that we will get respone: `Account not provisioned`
+Without that we will get respone: `Account not provisioned`.
 
-Next we must encode saml response. I used for it [base64encode.org](https://www.base64encode.org/). Next in postman we must set cookie and body:
+Next we must encode saml response. I used for it [base64encode.org](https://www.base64encode.org/). Next in Postman we must set cookie and body:
 
 <img src="./task_7_a.png" width="500"/>
 <img src="./task_7_b.png" width="500"/>
 
 
-After we receive response, we will get cookies: `nc_username: twardowski`
+After we receive response, we will get cookies: `nc_username: twardowski`.
 
 <br>
 <br>

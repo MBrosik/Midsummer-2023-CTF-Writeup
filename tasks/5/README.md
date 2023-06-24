@@ -1,10 +1,45 @@
+# Task 5 Baba Yaga
 
-# Task 5
-We must download source zip file. Let's extract it. In the "/core/routes.php" file we have all routes listed.
+## 1. Which HTTP header was used to bypass throttling?
+
+Answer: X-Forwarded-For
+
+<br>
+
+In description we have answer: `X-Forwarded-For: 127.0.0.1`
+<br>
+<br>
+
+## 2. What is the endpoint path for resetting a password?
+
+Answer: `/lostpassword/reset/form/<TOKEN>/<USER> `
+
+<br>
+
+We must download source zip file. Then let's use regex to search for the path.
+
+<img src="./task_5_b.png" width="700"/>
+
+<br>
+<br>
+
+## 3. What is the content of the Fern_flower_ritual_shard3.txt file in babayaga account?
+
+Answer: `Midsummer_Corp{F1nd_th3_cl34r1ng_w1th_th3_anc13nt_st0n3s}`
+
+<br>
+
+To get into the Baba Yaga account, we must also set header which is "X-Forwarded-For". I used for that google extension Mod Header.
+
+<img src="./task_5_a.png" width="700"/>
 
 
-<img src="./task_5.png" width="700"/>
+Then we must find `<user>` to the reset url.
 
-We also must set header which is "X-Forwarded-For". I used for that google extension Mod Header.
+<img src="./task_5_c.png" width="700"/>
 
-<img src="./task_5_a.png" width="500"/>
+Token can be whatever you want. When we open link, we will see the reset form.
+
+<img src="./task_5_d.png" width="700"/>
+
+And here we are. We have access to Babayaga account.

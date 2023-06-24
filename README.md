@@ -1,4 +1,6 @@
-# Table of Contents  
+# The Midsummer Corp Hack
+
+## Table of Contents  
 - [Midsummer Corp](./tasks/2/README.md)  
 - [Puck](./tasks/3/README.md)  
 - [Leshy](./tasks/4/README.md)  

@@ -1,5 +1,5 @@
 
-# Task 8
+# Task 8  Popiel
 
 ## 1. The NextCloud application plays two OAuth roles at once. Which ones?
 
@@ -148,7 +148,4 @@ I used for that application `ModHeader`
 
 Next we must logout of Puck' account. After that we are automatically logged in Popiel.
 
-In `Fern_flower_ritual_shard6.txt` we got answer
-
-<br>
-<br>
+In `Fern_flower_ritual_shard6.txt` we got answer.
