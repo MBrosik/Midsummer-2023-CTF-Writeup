@@ -168,8 +168,8 @@ Without that we will get respone: `Account not provisioned`.
 
 Next we must encode saml response. I used for it [base64encode.org](https://www.base64encode.org/). Next in Postman we must set cookie and body:
 
-<img src="./task_7_a.png" width="700"/>
-<img src="./task_7_b.png" width="700"/>
+<img src="./task_7_a.png" width="1000"/>
+<img src="./task_7_b.png" width="1000"/>
 
 
 After we receive response, we will get cookies: `nc_username: twardowski`.
