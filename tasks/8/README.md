@@ -42,7 +42,7 @@ Answer: `/apps/oauth2/api/v1/token`
 
 I made regex and I used in search bar in vs code:
 
-<img src="./task_8.png" width="500"/>
+<img src="./task_8.png" width="700"/>
 
 <br>
 <br>
@@ -77,14 +77,14 @@ I tried it in Postman, but I got response:
 
 So I started to search something about that endpoint.
 
-<img src="./task_8_a.png" width="500"/>
+<img src="./task_8_a.png" width="700"/>
 
 We can get information in `apps/oauth2/lib/Controller/SettingsController.php` that no admin is required to send that request. So cookie `nc_username=admin` is red herring. 
-<img src="./task_8_b.png" width="500"/>
+<img src="./task_8_b.png" width="700"/>
 
 So lets be logged in any other account. For example Puck and create app password and copy request token and cookie.
 
-<img src="./task_8_c.png" width="500"/>
+<img src="./task_8_c.png" width="700"/>
 
 We got response:
 ``` json
@@ -144,7 +144,7 @@ Authorization: Bearer oa5yaxagaZVQDV47OAgltF58ZE1Sq6pwO5Xzrf16ma35DIfzQZA2QHbxXa
 
 I used for that application `ModHeader`
 
-<img src="./task_8_d.png" width="500"/>
+<img src="./task_8_d.png" width="700"/>
 
 Next we must logout of Puck' account. After that we are automatically logged in Popiel.
 

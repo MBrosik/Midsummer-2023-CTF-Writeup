@@ -13,4 +13,4 @@ Now we must get text from photos:
 
 <br>
 
-<img src="./fernflower_flag.png" width="500"/>
+<img src="./fernflower_flag.png" width="700"/>

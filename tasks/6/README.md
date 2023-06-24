@@ -31,7 +31,7 @@ Then we must disable automatic redirect in settings.
 
 Now we must get Request Token. 
 
-<img src="./task_6_f.png" width="500"/>
+<img src="./task_6_f.png" width="700"/>
 
 And fill it here.
 
