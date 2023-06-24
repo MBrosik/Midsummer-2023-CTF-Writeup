@@ -349,7 +349,7 @@ In `Fern_flower_ritual_shard6.txt` we got answer
 <br>
 
 # Task 9
-Answer: `Midsummer_Corp{Th3-f3rN-f!0w3r-r3ve@ls_it%_5ecr3t$}`
+Answer: `Midsummer_Corp{Th3_f3rN_f!0w3r_r3ve@ls_it%_5ecr3t$}`
 
 Now we must get text from photos:
 - fernflower_flag1.png
@@ -359,11 +359,4 @@ Now we must get text from photos:
 - fernflower_flag5.png
 - fernflower_flag6.png
 
-<div style="display:flex; flex-direction:column">
-  <img src="./fern_flowers/fernflower_flag1.png" width="500"/>
-  <img src="./fern_flowers/fernflower_flag2.png" width="500"/>
-  <img src="./fern_flowers/fernflower_flag3.png" width="500"/>
-  <img src="./fern_flowers/fernflower_flag4.png" width="500"/>
-  <img src="./fern_flowers/fernflower_flag5.png" width="500"/>
-  <img src="./fern_flowers/fernflower_flag6.png" width="500"/>
-</div>
+<img src="./fern_flowers/fernflower_flag.png" width="500"/>
