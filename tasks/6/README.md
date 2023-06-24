@@ -37,7 +37,7 @@ And fill it here.
 
 <img src="./task_6_g.png" width="700"/>
 
-We must also find way to avoid security. We can find it in `www\apps\settings\lib\Controller\AuthSettingsController.php`
+We must also find way to avoid security. We can find it in `www\apps\settings\lib\Controller\AuthSettingsController.php`.
 
 We can deduce that loginName must have space on the end. 
 
@@ -49,22 +49,22 @@ Then the request is send, we will get this output.
 
 Now we must open Nextcloud program or something another. Fill server ip.
 
-<img src="./task_6_h.png" width="500"/>
+<img src="./task_6_h.png" width="600"/>
 
 Then we must grant access in browser.
 
-<img src="./task_6_i.png" width="500"/> 
+<img src="./task_6_i.png" width="700"/> 
 
-<img src="./task_6_j.png" width="500"/> 
+<img src="./task_6_j.png" width="700"/> 
 
 Then we need to use app now.
 
-<img src="./task_6_k.png" width="500"/> 
+<img src="./task_6_k.png" width="700"/> 
 
 Then we need to open file explorer.
 
-<img src="./task_6_l.png" width="500"/> 
+<img src="./task_6_l.png" width="700"/> 
 
 Here we go. We have file with the answer.
 
-<img src="./task_6_m.png" width="500"/> 
+<img src="./task_6_m.png" width="700"/> 
