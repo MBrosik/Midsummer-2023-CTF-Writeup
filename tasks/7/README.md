@@ -6,9 +6,14 @@ Answer: `assertion`
 
 <br>
 
+<details>
+<summary>Solution</summary>
+
 Answer for that information we can find in task description:
 
 `IdP authenticates you and creates an SAML assertion`
+
+</details>
 
 <br>
 <br>
@@ -19,10 +24,15 @@ Answer: `Identity Provider`
 
 <br>
 
+<details>
+<summary>Solution</summary>
+
 Also that information is in task description:
 
 `IdP authenticates you and creates an SAML assertion`
 `a user, an identity provider (IdP)`
+
+</details>
 
 <br>
 <br>
@@ -38,7 +48,14 @@ Answer: `15/06/2023`
 
 Answer: `application/x-www-form-urlencoded`
 
+<br>
+
+<details>
+<summary>Solution</summary>
+
 I searched for that information in google and I found that information in that [post](https://stackoverflow.com/questions/54880602/how-to-deal-with-saml-responses-without-a-content-type-header).
+
+</details>
 
 <br>
 <br>
@@ -49,6 +66,9 @@ Answer: `files.midsummer.corp.local/apps/user_saml/saml/acs`
 
 <br>
 
+<details>
+<summary>Solution</summary>
+
 That information was in mail from Twardowski to Boruta:
 `You can send POST request to the Service Provider (SP) to "/apps/user_saml/saml/acs"`
 
@@ -58,6 +78,8 @@ The first part of url we can find in the main site `10.10.116.151` in the `<a>` 
 <a href="https://files.midsummer.corp.local" target="_blank" rel="noreferrer noopener" class="entity-name">Midsummer Corp</a>
 ```
 
+</details>
+
 <br>
 <br>
 
@@ -66,11 +88,16 @@ Answer: `http://idp.midsummer.corp`
 
 <br>
 
+<details>
+<summary>Solution</summary>
+
 In the mail from Twardowski to Boruta we can find sentence:
 
 ```
 For some reason http://idp.midsummer.corp stopped working lately and I could not bring it back online.
 ```
+
+</details>
 
 <br>
 <br>
@@ -80,6 +107,9 @@ For some reason http://idp.midsummer.corp stopped working lately and I could not
 Answer: `Midsummer_Corp{Look_f0r_th3_fern_w1th_silv3r_l3av3s}`
 
 <br>
+
+<details>
+<summary>Solution</summary>
 
 We must create saml response. I got from the Internet example of a saml response.
 
@@ -174,5 +204,6 @@ Next we must encode saml response. I used for it [base64encode.org](https://www.
 
 After we receive response, we will get cookies: `nc_username: twardowski`.
 
-<br>
-<br>
+Now we are logged in and we can capture the flag.
+
+</details>

@@ -6,12 +6,15 @@ Answer: `Authentication`
 
 <br>
 
+<details>
+<summary>Solution</summary>
+
 We can find it in description: 
 
 ```
 Authentication is the process of verifying the identity of a user or a system
 ```
-
+</details>
 <br>
 <br>
 
@@ -21,9 +24,14 @@ Answer: `Authorization`
 
 <br>
 
+<details>
+<summary>Solution</summary>
+
 I know that actually, but you can also search it on google.
 
-<br>
+</details>
+
+
 <br>
 
 ## 3. How long is Puck's password?
@@ -32,9 +40,14 @@ Answer: `16`
 
 <br>
 
+<details>
+<summary>Solution</summary>
+
 We must open source of the main site and then we must search for default password which is Puck password.
 
 <img src="./task_3.png" width="1000"/>
+
+</details>
 
 <br>
 <br>
@@ -45,15 +58,25 @@ Answer: `Midsummer_Corp{W@it_unt!1_m1dn1ght_0n_th3_Summ3r_Solst1c3}`
 
 <br>
 
+<details>
+<summary>Solution</summary>
+
 File is here.
 
 <img src="./task_3_a.png" width="1000"/>
 
+</details>
+
+<br>
+<br>
 
 ## 5. Who is going on vacation? Please provide their email address.
 Answer: `leshy@midsummer.corp.local`
 
 <br>
+
+<details>
+<summary>Solution</summary>
 
 To find information about email, we must turn on hidden files visibility.
 
@@ -70,3 +93,5 @@ Then we can find ".mail" folder, where is "inbox.mbox" file.
 There is wanted mail.
 
 <img src="./task_3_e.png" width="1000"/>
+
+</details>

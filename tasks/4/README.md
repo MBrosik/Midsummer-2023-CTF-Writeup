@@ -5,11 +5,18 @@ Password to Leshy account is in "inbox.mbox" file
 
 Answer: `6`
 
+<br>
+
+<details>
+<summary>Solution</summary>
+
 To activate 2-factor authentication we must activate in Puck settings. Unfortunately that 2-factor authentication is also valid for Leshy account.
 
 <img src="./task_4_a.png" width="800"/>
 
 The answer is length of the code in Authenticator app.
+
+</details>
 
 <br>
 <br>
@@ -20,8 +27,13 @@ Answer: `Midsummer_Corp{Fo11ow_Th3_Wi1l_o'_7h3_W1sps}`
 
 <br>
 
+<details>
+<summary>Solution</summary>
+
 Then we must go to Leshy account. This information is placed in `inbox.mbox` file.
 
 <img src="./task_4.png" width="800"/>
 
 And here we go. We have access to the Leshy account and to the file with flag.
+
+</details>

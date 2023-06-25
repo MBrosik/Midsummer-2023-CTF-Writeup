@@ -5,6 +5,11 @@
 
 Answer: `Authorization Server, Resource Server`
 
+<br>
+
+<details>
+<summary>Solution</summary>
+
 We can get that from description:
 ```
  - Resource Owner, 
@@ -12,19 +17,39 @@ We can get that from description:
  - Client, 
  - Authorization Server. 
 ```
+</details>
+
+<br>
+<br>
 
 ## 2. What value of the response_type parameter indicates that an application is starting the authorization code flow?
 
 Answer: `code`
 
+<br>
+
+<details>
+<summary>Solution</summary>
+
 We can find it in linked blog post:
 
-`response_type=code - This tells the authorization server that the application is initiating the authorization code flow`
+```
+response_type=code - This tells the authorization server that the application is initiating the authorization code flow
+```
 
+</details>
+
+<br>
+<br>
 
 ## 3. During registration, each client receives a unique pair of client_id and client_secret. (Y/N)
 
 Answer: `Y`
+
+<br>
+
+<details>
+<summary>Solution</summary>
 
 It is trivial. Only yes or no :). But also we can find in linked blog post:
 
@@ -36,13 +61,25 @@ The application makes a POST request to the service’s token endpoint with the 
 - client_secret - The application’s client secret. This ensures that the request to get the access token is made only from the application, and not from a potential attacker that may have intercepted the authorization code.
 ```
 
+</details>
+
+<br>
+<br>
+
 ## 4. What endpoint you should use to exchange the OAuth code for a token?
 
 Answer: `/apps/oauth2/api/v1/token`
 
+<br>
+
+<details>
+<summary>Solution</summary>
+
 I made regex and I used in search bar in vs code:
 
 <img src="./task_8.png" width="600"/>
+
+</details>
 
 <br>
 <br>
@@ -50,6 +87,11 @@ I made regex and I used in search bar in vs code:
 ## 5. What is the content of the Fern_flower_ritual_shard6.txt file in Popiel's account?
 
 Answer: `Midsummer_Corp{Spr1nkle_wat3r_fr0m_a_s@cr3d_spr1ng_0n_th3_fern}`
+
+<br>
+
+<details>
+<summary>Solution</summary>
 
 At first we must get authorization code from file `authorization_code.txt`:
 
@@ -150,3 +192,6 @@ I used for that application `ModHeader`
 Next we must logout of Puck' account. After that we are automatically logged in Popiel.
 
 In `Fern_flower_ritual_shard6.txt` we got answer.
+
+
+</details>

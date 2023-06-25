@@ -4,7 +4,10 @@
 
 Answer: `loginName`
 
+<br>
 
+<details>
+<summary>Solution</summary>
 
 We must go to the settings. Next we must add Password App.
 
@@ -14,12 +17,19 @@ Now let's see the response.
 
 <img src="./task_6_d.png" width="700"/>
 
+</details>
+
+<br>
+<br>
 
 ## 2. What is the content of the Fern_flower_ritual_shard4.txt file in Boruta's account?
 
 Answer: Midsummer_Corp{L3ave_an_0ff3r1ng_f0r_th3_spir1ts}
 
 <br> 
+
+<details>
+<summary>Solution</summary>
 
 Now we must use Postman extension to synchronize cookies and requests with Postman application.
 
@@ -68,3 +78,5 @@ Then we need to open file explorer.
 Here we go. We have file with the answer.
 
 <img src="./task_6_m.png" width="700"/> 
+
+</details>
