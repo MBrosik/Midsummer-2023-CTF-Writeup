@@ -1,5 +1,5 @@
 # Task 4 Leshy
-Password to Leshy account is in "inbox.mbox" file
+
 
 ## 1. What is the length of the MFA code used in the application? Enter a numeric value in your answer.
 
@@ -18,7 +18,6 @@ The answer is length of the code in Authenticator app.
 
 </details>
 
-<br>
 <br>
 
 ## 2. What is the content of the file Fern_flower_ritual_shard2.txt in Leshy's account?
