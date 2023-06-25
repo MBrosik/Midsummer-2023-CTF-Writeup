@@ -10,7 +10,7 @@ We must go to the settings. Next we must add Password App.
 
 <img src="./task_6.png" width="700"/>
 
-Now let's view payload of request.
+Now let's see the response.
 
 <img src="./task_6_d.png" width="700"/>
 
