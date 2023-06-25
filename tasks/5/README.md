@@ -2,7 +2,7 @@
 
 ## 1. Which HTTP header was used to bypass throttling?
 
-Answer: X-Forwarded-For
+Answer: `X-Forwarded-For`
 
 <br>
 
