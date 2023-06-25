@@ -9,7 +9,7 @@ To activate 2-factor authentication we must activate in Puck settings. Unfortuna
 
 <img src="./task_4_a.png" width="800"/>
 
-The answer is code in Authenticator application.
+The answer is length of the code in Authenticator app.
 
 <br>
 <br>
