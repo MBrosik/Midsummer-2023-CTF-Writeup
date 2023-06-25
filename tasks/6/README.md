@@ -24,7 +24,7 @@ Now let's see the response.
 
 ## 2. What is the content of the Fern_flower_ritual_shard4.txt file in Boruta's account?
 
-Answer: Midsummer_Corp{L3ave_an_0ff3r1ng_f0r_th3_spir1ts}
+Answer: `Midsummer_Corp{L3ave_an_0ff3r1ng_f0r_th3_spir1ts}`
 
 <br> 
 
