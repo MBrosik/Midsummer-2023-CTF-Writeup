@@ -1,6 +1,6 @@
 # The Midsummer Corp Hack 2023 CTF Writeup
 ## About
-Go [here](tryhackme.com/room/midsummer#) for more information.
+Go [here](https://tryhackme.com/room/midsummer#) for more information.
 
 ## Table of Contents  
 2. [Midsummer Corp](./tasks/2/README.md)  
